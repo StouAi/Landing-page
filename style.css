@@ -3,13 +3,11 @@ body{
     flex-direction: column;
 }
 
-
-.header{
+.header,.main-text{
     background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
 }
 
 .head-logo{
@@ -31,4 +29,34 @@ a{
     color: #F9FAF8;
     text-decoration: none;
 
+}
+
+.main-text{
+    padding: 50px 140px;
+
+}
+.bold-text{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+
+.descrip{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+
+
+.join{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: #3882F6;
 }
