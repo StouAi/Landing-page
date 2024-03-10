@@ -60,3 +60,30 @@ a{
     font-weight: bold;
     border-color: #3882F6;
 }
+
+.head-info{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-info img{
+    border: 5px #3882F6;
+    border-radius: 5px;
+
+}
+.img-info{
+    display: flex;
+    flex-direction: column;
+    
+
+}
